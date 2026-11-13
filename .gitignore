@@ -1,0 +1,12 @@
+# secrets and local config never go in git
+.env
+*.secret
+secrets/
+rclone.conf
+*.key
+*.pem
+config.local.*
+__pycache__/
+*.pyc
+.venv/
+data/
